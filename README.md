@@ -1,6 +1,7 @@
 # Bookmarklet
 
-Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for Drupal by Benjamin Doherty.
+Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for Drupal by Benjamin Doherty. It's completely rewritten to work without dependencies like jQuery and jQuery UI. It also creates just plain iframe inside of parent site to minimalize css probability of css conflicts.
+
 
 ## Overview
 
