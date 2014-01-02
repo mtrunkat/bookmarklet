@@ -4,7 +4,7 @@ Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for D
 
 ## Overview
 
-This bookmarklet can be simply used at any site. User can drag and drop Bootkmarklet button to his browser bar. 
+This bookmarklet can be simply used at any site. User can drag and drop Bookmarklet button to his browser bar. 
 
 ![alt text](./demo.jpg)
 
