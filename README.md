@@ -6,11 +6,11 @@ Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for D
 
 This bookmarklet can be simply used at any site. User can drag and drop Bookmarklet button to his browser bar. 
 
-![alt text](./demo.jpg)
+![alt text](./img/img)
 
 When he clicks at the button, iframe is created inside of the DOM of current site pointing to given url. Url, title and images from the current site are passed to the iframe as GET parameters.
 
-![alt text](./demo2.jpg)
+![alt text](./img/img2.jpg)
 
 ## Configuration
 
@@ -26,6 +26,8 @@ All you have to do is to configure properties of settings object:
 | image_width   | integer | minimal width of images  |
 | image_height  | integer | minimal height of images |
 
+
+And here is the full code of the bookmarklet button (for details see example.html):
 
 ```html
 	Drag and drop this <a href="javascript:
