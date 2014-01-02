@@ -4,9 +4,13 @@ Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for D
 
 ## Overview
 
-This bookmarklet can be simply used at any site. User can drag and drop Bootkmarklet button to his browser bar. When he clicks at the button, iframe is created in current site with given url inside. Url, title and images from current site are passed to the iframe as GET parameters.
+This bookmarklet can be simply used at any site. User can drag and drop Bootkmarklet button to his browser bar. 
 
 ![alt text](./demo.jpg)
+
+When he clicks at the button, iframe is created inside of the DOM of current site pointing to given url. Url, title and images from the current site are passed to the iframe as GET parameters.
+
+![alt text](./demo2.jpg)
 
 ## Configuration
 
