@@ -6,7 +6,7 @@ Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for D
 
 This bookmarklet can be simply used at any site. User can drag and drop Bookmarklet button to his browser bar. 
 
-![alt text](./img/img)
+![alt text](./img/img.jpg)
 
 When he clicks at the button, iframe is created inside of the DOM of current site pointing to given url. Url, title and images from the current site are passed to the iframe as GET parameters.
 
