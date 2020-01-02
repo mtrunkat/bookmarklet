@@ -1,21 +1,21 @@
 # Bookmarklet
 
-Code is based on Bookmarklet module https://drupal.org/project/bookmarklet for Drupal by Benjamin Doherty. It's completely rewritten to work without dependencies like jQuery and jQuery UI. It also creates just plain iframe inside of parent site to minimalize probability of css conflicts.
+Code is based on the Bookmarklet module https://drupal.org/project/bookmarklet for Drupal by Benjamin Doherty. It's completely rewritten to work without dependencies like jQuery and jQuery UI. It also creates just plain iframe inside of the parent site to minimalize the probability of CSS conflicts.
 
 
 ## Overview
 
-This bookmarklet can be simply used at any site. User can drag and drop Bookmarklet button to his browser bar. 
+This bookmarklet can be simply used at any site. Users can drag and drop the Bookmarklet button to his browser bar. 
 
 ![alt text](./img/img.jpg)
 
-When he clicks at the button, iframe is created inside of the DOM of current site pointing to given url. Url, title and images from the current site are passed to the iframe as GET parameters.
+When he clicks at the button, an iframe is created inside of the DOM of the current site pointing to the given URL. Url, title and images from the current site are passed to the iframe as GET parameters.
 
 ![alt text](./img/img2.jpg)
 
 ## Configuration
 
-All you have to do is to configure properties of settings object:
+All you have to do is to configure the properties of settings object:
 
 | Property      | Type | Description   |
 | ------------- |:-------------:|-------------|
@@ -102,6 +102,6 @@ var bookmarklet;
 }());">button</a> to your browser bar.
 ```
 
-Bookmarklet can be closed from iframe via following call (works in modern browsers only):
+The bookmarklet can be closed from iframe via following call (works in modern browsers only):
 
 	window.parent.postMessage('close', '*');
